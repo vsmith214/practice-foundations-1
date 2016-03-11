@@ -5,8 +5,8 @@
 1. You should have **Forked** the repository to your account from the Assessments page for Challenge 1 on learndot.
 2. Go to your own newly created Challenge 1 repository on GitHub and **clone the Challenge1**
 ```
-$ git clone https://github.com/YOURUSERNAME/challenge1.git
-$ cd challenge1
+$ git clone https://github.com/YOURUSERNAME/foundations-challenge-1.git
+$ cd foundations-challenge-1
 ```
 
 
@@ -16,7 +16,7 @@ $ cd challenge1
 4. Run the test specs to test your code. To run the specs for a directory, you need to go into that directory and run the command `testem`.
 
 ```
-$ cd challenge1
+$ cd foundations-challenge-1
 $ testem
 TEST'EM 'SCRIPTS!
 Open the URL below in a browser to connect.
