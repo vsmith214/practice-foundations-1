@@ -22,7 +22,7 @@ describe("Looping to find Object properties", function() {
     Copy/Paste your Rectangle function in the solutions_findObjProperties.js file.
     */
 
-    var shape3 = shape3 = new Rectangle("blue", 5, 3);
+    var shape3 = new Rectangle("blue", 5, 3);
 
     expect(findObjProperties(shape3)).toEqual("color, height, width");
 
