@@ -4,6 +4,7 @@
 
 1. You should have **Forked** the repository to your account from the Assessments page for Challenge 1 on learndot.
 2. Go to your own newly created Challenge 1 repository on GitHub and **clone the Challenge1**
+
 ```
 $ git clone https://github.com/YOURUSERNAME/foundations-challenge-1.git
 $ cd foundations-challenge-1
@@ -12,8 +13,9 @@ $ cd foundations-challenge-1
 
 ## Complete the specs
 
-3. Write your code in challenge1.js so that you can pass the specs in challenge1Spec.js
-4. Run the test specs to test your code. To run the specs for a directory, you need to go into that directory and run the command `testem`.
+3. Before completing each spec, read the README.md File located in each folder.
+4. Write your code in each `solution_*.js` file so that you can pass the specs in located in the `*_specs.js` files
+5. Run the test specs to test your code. To run the specs for a directory, you need to go into that directory and run the command `testem`.
 
 ```
 $ cd foundations-challenge-1
