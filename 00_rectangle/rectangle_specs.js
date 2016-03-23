@@ -13,6 +13,7 @@ describe("Shape constructor", function() {
   });
 
   it("should have a function getArea on its prototype that returns the area of the rectangle", function() {
+    expect(rectangle.hasOwnProperty('getArea')).toEqual(false);
     expect(rectangle.getArea()).toEqual(15);
   });
 
