@@ -2,8 +2,8 @@
 
 ## Setup
 
-1. You should have **Forked** the repository to your account from the Assessments page for Challenge 1 on learndot.
-2. Go to your own newly created Challenge 1 repository on GitHub and **clone** the repo locally.
+1. From the Foundations Challenge 1 Assessment, click on the **fork** button at the bottom of this page. This will **fork** a copy of the challenge repository to your account on Github
+2. Go to your own newly created Challenge 1 repository on GitHub and **clone** the repo locally. The link is also given below, and should also appear at the bottom of this page after your press the fork button.
 
 ```
 $ git clone https://github.com/YOURUSERNAME/foundations-challenge-1.git
