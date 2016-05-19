@@ -19,7 +19,8 @@ describe("Looping to find Object properties", function() {
   it("should print keys belonging to the object instance, not on the prototype", function() {
     /*
     What is Rectangle? Rectangle is the Constructor Function created in 00_rectangle.
-    Copy/Paste your Rectangle function in the solutions_findObjProperties.js file.
+    You DON'T need to copy and past the Rectangle function into the solutions_findObjProperties.js file.
+    All of your solution files will be run before your tests will evaluate, so Rectangle will already be defined here.
     */
 
     var shape3 = new Rectangle("blue", 5, 3);
