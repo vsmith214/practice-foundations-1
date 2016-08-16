@@ -22,10 +22,7 @@ describe("Don't Spill The Beans", function() {
     });
 
     it("`getSecret` and `setSecret` are functions", function() {
-        console.log('logged');
-        console.log(typeof secret.getSecret);
         expect(typeof secret.getSecret).toEqual("function");
-        // expect(typeof secret.setSecret).toEqual("function");
     });
 
     it("`getSecret` returns `secret` value that was passed to the dontSpillTheBeans function", function(){
