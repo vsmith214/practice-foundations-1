@@ -1,5 +1,8 @@
 #### Right Triangle
 
+### 5.00 Points
+
+
 Create the function `rightTriangle`, it returns a string representing a right triangle using `*`.
 
 The `number argument` represents the number of **rows** the triangle will have.
