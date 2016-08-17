@@ -2,24 +2,24 @@
 
 #### 8.00 Points
 
-#### Pokemon Constructor Function
+#### 1) Pokemon Constructor Function
 
-In order to have Pokemon to battle one another, first you need a way to create the Pokemon! Create the constructor function `Pokemon` that creates a `Pokemon`
-with the following properties:
+In order to have Pokemon to battle one another, first you need a way to create the Pokemon! **Create the constructor function `Pokemon` that creates a `Pokemon`
+with the following properties**:
 
 - Name
 - Health
 - Attack Bonus
 
-There should also be two methods on the Constructor Functions `.prototype` object so all instances of the `Pokemon` can access them. The two methods are:
+There should also be **two methods on the Constructor Functions `.prototype` object** so all instances of the `Pokemon` can access them. The two methods are:
 
 - `biteAttack`: returns the value of a bit attack.  The value of the biteAttack is the attack bonus value + 2.
 - `isDefeated`: returns `true` or `false` depending if the Pokemon's health is greater than 0 (false) or if the Pokemon's health is less than or equal to 0 (true, the Pokemon is defeated)
 
 
-#### Simulate Battle Function
+#### 2) Simulate Battle Function
 
-Create a function `simulateBattle` that simulates a Pokemon Battle! How does the battle work? 
+**Create a function `simulateBattle` that simulates a Pokemon Battle!** How does the battle work? 
 
 The `simulateBattle` function accepts three arguments:
 
