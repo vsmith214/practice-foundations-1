@@ -25,7 +25,7 @@ http://localhost:7357/
 
 ## Submission
 
-When you are passing all the specs, or have run out of time, **commit your changes and push them up to your repository for the coding portion of the Checkpoint to be graded in Learndot**.
+When you are passing all the specs, or have run out of time, **commit your changes and push them up to your repository for the Checkpoint to be graded in Learndot**.
 
 Make sure you press **Done** on the Checkpoint 1 Checkpoints Page to submit your Checkpoint when you are finished!
 
