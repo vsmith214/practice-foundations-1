@@ -19,6 +19,7 @@ describe("Don't Spill The Beans", function() {
         
         // checks for values in the array Object.keys returns, these are the property names on "secret" object. 
         expect((properties.indexOf("getSecret") >= 0 && properties.indexOf("setSecret") >= 0)).toEqual(true);
+        expect(properties.length === 2).toEqual(true);
     });
 
     it("`getSecret` and `setSecret` are functions", function() {
