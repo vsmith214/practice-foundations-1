@@ -56,7 +56,7 @@ describe('simulateBattle function', function() {
     });
 
     it("works on multiple instances", function(){
-        var krabby = new Pokemon("Krabby", 400, 5);
+        var krabby = new Pokemon("Krabby", 400, 5),
             squirtle = new Pokemon("Squirtle", 600, 2);
 
         expect(simulateBattle(krabby, squirtle, "Krabby")).toEqual("Krabby Wins!");
