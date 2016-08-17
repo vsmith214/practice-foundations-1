@@ -13,10 +13,11 @@ describe("Looping to find Object properties using .hasOwnProperty", function() {
   });
 
   it("should print keys belonging to the object instance, not on the prototype", function() {
-    /*
+   /*
     What is Rectangle? Rectangle is the Constructor Function created in 00_rectangle.
-    You DON'T need to copy and past the Rectangle function into the solutions_findObjProperties.js file.
-    All of your solution files will be run before your tests will evaluate, so Rectangle will already be defined here.
+    You DON'T need to copy and past the Rectangle function into the solutions_findObjProperties.js file if you
+    run testem from foundations-checkpoint-part-1 aka the parent directory.  If you run testem from 01_findObjProperties and receive
+    an error that "Rectangle" is not defined, copy and paste the code from 00 into solution_findObjProperties.js
     */
     var shape3 = new Rectangle("blue", 5, 3);
 
@@ -53,8 +54,9 @@ describe("Looping to find Object properties using `Object.keys` ", function() {
   it("should print keys belonging to the object instance, not on the prototype", function() {
     /*
     What is Rectangle? Rectangle is the Constructor Function created in 00_rectangle.
-    You DON'T need to copy and past the Rectangle function into the solutions_findObjProperties.js file.
-    All of your solution files will be run before your tests will evaluate, so Rectangle will already be defined here.
+    You DON'T need to copy and past the Rectangle function into the solutions_findObjProperties.js file if you
+    run testem from foundations-checkpoint-part-1 aka the parent directory.  If you run testem from 01_findObjProperties and receive
+    an error that "Rectangle" is not defined, copy and paste the code from 00 into solution_findObjProperties.js
     */
     var shape3 = new Rectangle("blue", 5, 3);
 
