@@ -14,12 +14,22 @@ Open the URL below in a browser to connect.
 http://localhost:7357/
 ```
 
+## Spec Point Values:
+
+- 00 Rectangle: 3.00 
+- 01 Find Object Properties: 5.00
+- 02 Don't Spill The Beans: 7.00
+- 03 Right Triangle: 5.00
+- 04 Simulate Battle: 8.00
+- 05 Create Functions: 8.00
+
 ## Submission
 
-When you are passing all the specs, or have run out of time, commit your changes and push them up to your repository for the coding portion of the Checkpoint to be graded in Learndot.
+When you are passing all the specs, or have run out of time, **commit your changes and push them up to your repository for the coding portion of the Checkpoint to be graded in Learndot**.
 
 Make sure you press **Done** on the Checkpoint 1 Checkpoints Page to submit your Checkpoint when you are finished!
 
+**Example**
 ```
 $ git add -A
 $ git commit -m 'completed exercises'

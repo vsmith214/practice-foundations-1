@@ -1,8 +1,8 @@
-#### Don't Spill The Beans 
+### Don't Spill The Beans 
 
-### 6.00 Points
+#### 7.00 Points
 
-Do you have trouble keeping a secret? Create the function `dontSpillTheBeans` that accepts a `secret` as an argument. The `secret` can be any JavaScript value. The function will return an object with two methods:
+Do you have trouble keeping a secret? Create the function `dontSpillTheBeans` that accepts a `secret` as an argument. The `secret` can be any JavaScript value. The function will **return an object** with two methods:
 
 - `getSecret` is a function that returns the `secret` value that was passed to `dontSpillTheBeans`
 - `setSecret`: is a function that accepts a new `secret` and re-assigns the `secret` value to the new value.

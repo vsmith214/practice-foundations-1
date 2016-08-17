@@ -1,6 +1,6 @@
-#### Rectangle 
+### Rectangle 
 
-### 4.00 Points
+#### 3.00 Points
 
 Create a constructor function named `Rectangle` that returns an object with color, height, width
 properties.  The object returned should have access to a "findArea" function attached

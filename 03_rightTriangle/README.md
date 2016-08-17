@@ -1,6 +1,6 @@
-#### Right Triangle
+### Right Triangle
 
-### 5.00 Points
+#### 5.00 Points
 
 
 Create the function `rightTriangle`, it returns a string representing a right triangle using `*`.
