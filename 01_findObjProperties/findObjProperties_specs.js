@@ -63,7 +63,7 @@ describe("Looping to find Object properties using `Object.keys` ", function() {
     expect(findObjKeys(shape3)).toEqual("color, height, width");
   });
 
-  it("should use `Object.hasOwnProperty(obj)` method", function(){
+  it("should use `Object.keys` method", function(){
     var shape4 = new Rectangle("purple", 7, 2);    
     spyOn(Object, "keys").and.callThrough(); // Checks if Object.keys is called
     
