@@ -23,22 +23,22 @@ There should also be **two methods on the Constructor Functions `.prototype` obj
 
 The `simulateBattle` function accepts three arguments:
 
-	- Pokemon Fighter 1
-	- Pokemon Fighter 2
-	- Pokemon Fighter name that gets first move
+	- Pokemon 1
+	- Pokemon 2
+	- Pokemon name that gets first move
 
 
-The **first two arguments are object instances of the `Pokemon` Constructor function**.  These are the two Pokemons that
-will battle each other.  The last argument is the name of the Pokemon fighter that takes the first move in the battle, it is a string.
+The **first two arguments are object instances of the `Pokemon` Constructor function**.  These are the two Pokemon that
+will battle each other.  The last argument is the name of the Pokemon fighter that takes the first move in the battle. The last argument is a string.
 
-The battle will end when one of the two Pokemons in the battle reaches `0`or negative health.  
+The battle will end when one of the two Pokemon in the battle reaches `0`or negative health.  
 
-Each Pokemon will have one main ability called `biteAttack`.  The `biteAttack` is a function that calculates the total value of the Pokemon's Attack Bonus property and adds `2` to it. 
+Each Pokemon will have one ability called `biteAttack`.  The `biteAttack` is a function that calculates the total value of the Pokemon's Attack Bonus property and adds `2` to it. Each turn, the pokemon will use `biteAttack` which means that the opponent pokemon's health will decrease by the value that is returned by the attacker's `biteAttack` method.
 
 Each Pokemon will alternate attacks until a Pokemon reachs 0 or negative health. At the end of the battle, state the name of the Winner. 
 
 **Example**:
 
 ```
-simulateBattle(new Pokemon("Krabby", 100, 50), new Pokemon("Squirtle", 50, 0)); // returns `"Krabby Wins!"`
+simulateBattle(new Pokemon("Krabby", 100, 50), new Pokemon("Squirtle", 50, 0), "Krabby"); // returns `"Krabby Wins!"`
 ```
