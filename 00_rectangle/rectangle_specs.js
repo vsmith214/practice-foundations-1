@@ -1,4 +1,4 @@
-describe("Shape constructor", function() {
+describe("Rectangle constructor", function() {
   var rectangle;
 
   // rectangle is a constructor function
@@ -14,6 +14,7 @@ describe("Shape constructor", function() {
 
   it("should have a function getArea on its prototype that returns the area of the rectangle", function() {
     expect(rectangle.hasOwnProperty('getArea')).toEqual(false);
+    expect(Rectangle.prototype.hasOwnProperty('getArea')).toEqual(true);
     expect(rectangle.getArea()).toEqual(15);
   });
 

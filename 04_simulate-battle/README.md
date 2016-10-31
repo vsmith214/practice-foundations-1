@@ -11,7 +11,7 @@ with the following properties**:
 - Health
 - Attack Bonus
 
-There should also be **two methods on the Constructor Functions `.prototype` object** so all instances of the `Pokemon` can access them. The two methods are:
+There should also be **two methods on the Constructor Function's `.prototype` object** so all instances of the `Pokemon` can access them. The two methods are:
 
 - `biteAttack`: returns the value of a bit attack.  The value of the biteAttack is the attack bonus value + 2.
 - `isDefeated`: returns `true` or `false` depending if the Pokemon's health is greater than 0 (false) or if the Pokemon's health is less than or equal to 0 (true, the Pokemon is defeated)

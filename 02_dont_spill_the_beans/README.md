@@ -16,7 +16,7 @@ var secret = dontSpillTheBeans("I ate John's last piece of gum!");
 
 secret.getSecret(); // returns "I ate John's last piece of gum!"
 
-secrete.setSecret("I am planning a surprise vacation!");
+secret.setSecret("I am planning a surprise vacation!");
 
 secret.getSecret(); // returns "I am planning a surprise vacation!"
 
