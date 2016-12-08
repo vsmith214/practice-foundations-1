@@ -21,7 +21,6 @@ http://localhost:7357/
 - 02 Don't Spill The Beans: 7.00
 - 03 Right Triangle: 5.00
 - 04 Simulate Battle: 8.00
-- 05 Create Functions: 8.00
 
 ### Submission
 
