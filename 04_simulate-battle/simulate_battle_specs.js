@@ -18,9 +18,11 @@ describe("Pokemon class", function(){
         it("should have a biteAttack and isDefeated function on its .prototpye", function() {
             expect(typeof pikachu.biteAttack === "function").toEqual(true);
             expect(pikachu.hasOwnProperty("biteAttack")).toEqual(false);
+            expect(Pokemon.prototype.hasOwnProperty("biteAttack")).toEqual(true);
             
             expect(typeof pikachu.isDefeated).toEqual("function");
             expect(pikachu.hasOwnProperty("isDefeated")).toEqual(false);        
+            expect(Pokemon.prototype.hasOwnProperty("isDefeated")).toEqual(true);        
         });
 
         it("the `biteAttack` method should return the sum of the `attackBonus` property + 2", function(){
